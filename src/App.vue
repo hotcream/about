@@ -35,12 +35,12 @@
     <a-carousel class="hobbies-carousel" autoplay effect="fade">
       <div v-for="c in config.hobbies">
         <a-row>
-          <a-col :span="4" style="text-align: center;">
+          <a-col :xs="24" :md="4" style="text-align: center;">
             <a :href="c.link" target="_blank">
               <img :src="c.icon" style="height: 70px; width: 70px; display: inline-block;"/>
             </a>
           </a-col>
-          <a-col :span="20">
+          <a-col :xs="24" :md="20">
             <a-card>{{ c.title }}</a-card>
           </a-col>
         </a-row>
