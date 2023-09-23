@@ -8,12 +8,12 @@
   </a-result>
   <a-layout-content v-if="config" class="content">
     <a-divider>Опыт работы {{ Math.floor(startWork) }} лет и {{ Math.ceil(startWork % 1 * 12) }} мес.</a-divider>
-    <a-timeline id="experience" :mode="windowWidth < 1200 ? 'left' : 'alternate'">
+    <a-timeline id="experience" :mode="windowWidth < 768 ? 'left' : 'alternate'">
       <a-timeline-item v-for="(e,i) in config.experience" :color="e.type === 'job' ? 'blue' : 'green'">
         <template v-if="i == 0" #dot><ClockCircleOutlined style="font-size: 16px" /></template>
         <a-badge-ribbon :text="(e.type === 'job' ? 'Работа ' : 'Обучение ') + e.period"
-          :color="e.type === 'job' ? 'primary' : 'green'"
-          :placement="windowWidth < 1200 || e.type === 'job' ? 'end' : 'start'">
+          :color="e.type === 'job' ? 'primary' : 'green'" :style="{marginTop: '20px'}"
+          :placement="windowWidth < 768 || e.type === 'job' ? 'end' : 'start'">
           <a-card :title="e.сompany+'. '+e.title" size="small" :bodyStyle="{textAlign: 'left'}">
             <ul v-if="e.responsibilities && e.responsibilities.length > 0">
               <li v-for="rb in e.responsibilities">{{rb}}</li>

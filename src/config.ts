@@ -120,7 +120,7 @@ export default {
     icon: '/about/hh.png',
     link: 'https://ufa.hh.ru/resume/5498def9ff083d236c0039ed1f6d33314f7a75'
   },{
-    title: 'Email',
+    title: 'Контактный Email',
     icon: '/about/email.png',
     link: 'mailto:zinov.nikita2010@ya.ru'
   },{
