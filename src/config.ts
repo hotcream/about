@@ -22,13 +22,14 @@ export type ConfigType = {
   jobtitle: string
   description: string
   experience: ExperienceType[]
-  contacts: ContactType[]
+  contacts: ContactType[],
+  hobbies: ContactType[]
 }
 export default {
   start: new Date(2014,5,1),
   name: 'Зинов Никита Александрович',
   jobtitle: 'Full Stack разработчик',
-  description: 'Начиная с 2014 года я занимаюсь разработкой и сопровождением веб-приложений в банковской сфере.',
+  description: 'Начиная с 2014 года я занимаюсь разработкой и сопровождением веб-приложений в банковской сфере, анализом и внедрением бизнес-процессов. Продолжаю развиваться в сфере разработки...',
   experience: [
     {
       "type": "job",
@@ -115,20 +116,41 @@ export default {
     }
   ],
   contacts: [{
+    title: 'Никита Зинов',
+    icon: '/about/hh.png',
+    link: 'https://ufa.hh.ru/resume/5498def9ff083d236c0039ed1f6d33314f7a75'
+  },{
+    title: 'Email',
+    icon: '/about/email.png',
+    link: 'mailto:zinov.nikita2010@ya.ru'
+  },{
     title: '@ZinovNikita',
-    icon: '/github.png',
+    icon: '/about/github.png',
     link: 'https://github.com/ZinovNikita'
   },{
     title: '@ZinNikAlex',
-    icon: '/vk.png',
+    icon: '/about/vk.png',
     link: 'https://vk.com/zinnikalex'
   },{
-    title: 'Никита Зинов',
-    icon: '/hh.png',
-    link: 'https://ufa.hh.ru/resume/5498def9ff083d236c0039ed1f6d33314f7a75'
-  },{
     title: '@ZinovNA',
-    icon: '/tg.png',
+    icon: '/about/tg.png',
     link: 'https://t.me/ZinovNA'
+  },{
+    title: '@ZinNikAlex',
+    icon: '/about/youtube.png',
+    link: 'https://www.youtube.com/@zinnikalex'
+  }],
+  hobbies: [{
+    title: 'Babylon JS - Web GL фреймворк, для веб. Можно создавать гибкие приложения, начиная с простой визуализации 3D, заканчивая онлайн играми.',
+    icon: '/about/babylon.png',
+    link: 'https://www.babylonjs.com/'
+  },{
+    title: 'Blender - Средство 3D моделирования, анимации, тестурирования и т.д. Мощный инструмент, позволяет создать объекты или персонажей.',
+    icon: '/about/blender.png',
+    link: 'https://www.blender.org/'
+  },{
+    title: 'Kdenlive - Мощный инструмент обработки и монтажа видео, аналог Adobe Premiere Pro',
+    icon: '/about/kdenlive.png',
+    link: 'https://kdenlive.org/'
   }]
 } as ConfigType
