@@ -51,7 +51,7 @@
 </template>
 <script lang="ts" setup>
 import { ref } from 'vue'
-import { ClockCircleOutlined, LinkOutlined, CaretDownOutlined, GithubOutlined } from '@ant-design/icons-vue'
+import { ClockCircleOutlined, LinkOutlined, CaretDownOutlined } from '@ant-design/icons-vue'
 
 import config from './config'
 document.title = `${config.name} | ${config.jobtitle}`
