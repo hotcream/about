@@ -110,7 +110,7 @@ export default {
         "Полностью написана проектная документация с нуля",
         "Автоматизированы основные проверки UI"
       ],
-      "tags": ["Selenium","pytest","Postman", "Postgres", "Gitlab", "SQL"],
+      "tags": ["Selenium", "pytest", "Postman", "Postgres", "Gitlab", "SQL"],
       "links": [{to: 'https://tages.ru/', text: 'Тагес'}]
     },
     {
