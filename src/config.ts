@@ -135,10 +135,6 @@ export default {
     title: '@ZinovNA',
     icon: '/about/tg.png',
     link: 'https://t.me/ZinovNA'
-  },{
-    title: '@ZinNikAlex',
-    icon: '/about/youtube.png',
-    link: 'https://www.youtube.com/@zinnikalex'
   }],
   hobbies: [{
     title: 'Babylon JS - Web GL фреймворк, для веб. Можно создавать гибкие приложения, начиная с простой визуализации 3D, заканчивая онлайн играми.',
