@@ -95,7 +95,7 @@ export default {
       "links": [{to: 'https://www.digitalleague.ru/', text: 'Лига цифровой экономики'}]
     },
     {
-      "type": "job",
+      "type": "learn",
       "period": "Февраль 2021 - Апрель 2021",
       "сompany": "Тагес",
       "title": "Специалист по тестированию (стажировка)",
