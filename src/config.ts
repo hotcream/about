@@ -35,7 +35,7 @@ export default {
     {
       "type": "job",
       "period": "Май 2023 - по н.в.",
-      "сompany": "Альфа Банк (онлайн анкета кредитных карт)",
+      "сompany": "Альфа Банк (анкета кредитных карт)",
       "title": "Ведущий специалист по тестированию",
       "responsibilities": [
         "Планирование и декомпозиция задач",
@@ -58,12 +58,13 @@ export default {
     },
     {
       "type": "learn",
-      "period": "2022 - 2023",
+      "period": "Январь 2022 - Май 2022",
       "сompany": "Яндекс Практикум",
       "title": "Автоматизация тестирования на Java",
       "responsibilities": [
-        "Изучение java core",
-        "Автоматизация UI, юнит и API тестов"
+        "Изучение Java core",
+        "Автоматизация UI, юнит и API тестов",
+        "Установка jenkins в облако яндекса"
       ],
       "tags": ["Java", "git", "Selenide", "junit", "maven", "jenkins", "CI/CD", "sql", "Allure", "RestAssured",
         "IDEA", "Selenium WebDriver"],
